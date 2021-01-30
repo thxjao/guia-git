@@ -14,4 +14,4 @@ Sendo bem direto, o GitHub nada mais é do que uma plataforma online de hospedag
 
 ## Tá, mas como eu começo a pôr a mão na massa então?
 
-Bom primeiramente você deve instalar o GIT na sua máquina, que pode ser baixado através desse <a href="https://git-scm.com/">Link</a>
+Bom primeiramente você deve instalar o GIT na sua máquina, que pode ser adquirido através desse <a href="https://git-scm.com/">link</a>, assim instalação é bem fácil e prática, assim que instalado, você já será capaz de utilizar o mesmo localmente na sua máquina, "Git Bash Here".
