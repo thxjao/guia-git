@@ -27,3 +27,19 @@ Bom primeiramente você deve instalar o GIT na sua máquina, que pode ser adquir
 ## Operações Locais
 
 Antes de começarmos a utiliza a ferramente de vez, vamos falar um pouco sobre operações locais no git, basicamente temos três niveis de operações, são elas <strong>Working Directory</strong>, <strong>Staging Area</strong> e <strong>Git Directory (repositório)</strong>.
+
+### Working Directory
+
+Em primeiro nível, temos a working directory, é nesse local que o nosso projeto enfrentará uma série de inúmeras alterações e testes, é como se fosse o nosso brinquedo de lego onde montamos as peças como queremos até alcançar o resultado desejado.
+
+### Staging Area
+
+Staging directory, é aqui que muitas pessoas se perdem e não conseguem compreender a real função da Stage, imagine que você está trabalhando em um projeto X com duas funcionalidades, e no mesmo dia você fez alterações em ambas as funcionalidades, porém só conseguiu concluir uma e deixou a outra pela metade, você observa o horário e já chegou no final do seu expediente, como você não vai mais poder finalizar hoje, pretende enviar somente a funcionalidade que está completa, e é aí que entra a Stage Directory, é nela que você irá enviar apenas as alterações concluídas, que no final podem ser enviadas para a "linha do tempo", as alterações inacabadas, continuam na Working Directory,  saindo de lá apenas quando finalizadas.
+
+### Git Directory
+
+Enfim o Git Directory, a nossa linha do tempo, após ter inserido os itens finalizados na nossa Staging Directory, podemos passar todas as alterações concluídas com exito para a serem catalogadas através do comando git commit, tal comando empacota as alterações contidas na stage, com um comentário pelo qual você colocará descrevendo o que foi mudado, esse é o nível final.
+
+<p align="center">
+    <img src="./img/local_operations_explanation.png" alt="Imagem Ilustrativa">
+ </p>
