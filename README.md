@@ -26,4 +26,4 @@ Bom primeiramente você deve instalar o GIT na sua máquina, que pode ser adquir
 
 ## Operações Locais
 
-Antes de começarmos a utiliza a ferramente de vez, vamos falar um pouco sobre operações locais no git, basicamente temos três niveis de operações, são elas <strong>Working Directory</strong><strong>Staging Area</strong>e<strong>Git Directory (repositório)</strong>.
+Antes de começarmos a utiliza a ferramente de vez, vamos falar um pouco sobre operações locais no git, basicamente temos três niveis de operações, são elas <strong>Working Directory</strong>, <strong>Staging Area</strong> e <strong>Git Directory (repositório)</strong>.
