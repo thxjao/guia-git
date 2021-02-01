@@ -14,10 +14,15 @@ GIT é uma ferramenta de versionamento, através dessa ferramenta podemos fazer 
 
 ## Ok, meio que entendi o que é GIT, mas agora, e esse tal de GitHub?
 
-Sendo bem direto, o GitHub nada mais é do que uma plataforma online de hospedagem de códigos fonte juntamento com um controle de versionamento, através dele você pode expor seus projetos de maneira que toda a comunidade de programadores possam ler, ou até mesmo contribuir com a construção do resultado final, sabe, eu gosto de imaginar o GitHub como uma cozinha imensa com vários fogões, mesas, fornos, e vários cozinheiros preparando seus pratos, eu imagino os cozinheiros como os programadores, dispostos a preparar seus pratos, mas também a ajudar os cozinheiros próximos com seus conhecimentos e práticas, o prato que está sendo feito é como se fosse o projeto, a diferença é que bom... Nossa cozinha gigante é a internet, e a maneira como podemos ajudar é através do versionamento.
+Sendo bem direto ao ponto, o GitHub nada mais é do que uma plataforma online de hospedagem de códigos fonte juntamento com um controle de versionamento, através dele você pode expor seus projetos de maneira que toda a comunidade de programadores possam ler, ou até mesmo contribuir com a construção do resultado final, sabe, eu gosto de imaginar o GitHub como uma cozinha imensa com vários fogões, mesas, fornos, e vários cozinheiros preparando seus pratos, eu imagino os cozinheiros como os programadores, dispostos a preparar seus pratos, mas também a ajudar os colegas cozinheiros próximos com seus conhecimentos e práticas, o prato que está sendo feito é como se fosse o projeto, a diferença é que bom... Nossa cozinha gigante é a internet, e a maneira como podemos ajudar é através de contribuições que podem ser feitas através do versionamento.
 
 ---
 
 ## Tá, mas como eu começo a pôr a mão na massa então?
 
-Bom primeiramente você deve instalar o GIT na sua máquina, que pode ser adquirido através desse <a href="https://git-scm.com/">link</a>, a instalação é bem fácil e prática, assim que instalado, você já será capaz de utilizar o mesmo localmente na sua máquina, "Git Bash Here".
+Bom primeiramente você deve instalar o GIT na sua máquina, que pode ser adquirido através desse <a href="https://git-scm.com/">link</a>, a instalação é bem fácil e prática, assim que instalado, você já será capaz de utilizar o mesmo localmente na sua máquina, basta abrir qualquer diretório, apertar com o botão direito em um espaço vazio e selecionar "Git Bash Here".
+<p>
+   <img src="./img/git_bash.gif" alt="Git Bash Here">
+</p>
+
+---
