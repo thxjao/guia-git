@@ -21,8 +21,9 @@ Sendo bem direto ao ponto, o GitHub nada mais é do que uma plataforma online de
 ## Tá, mas como eu começo a pôr a mão na massa então?
 
 Bom primeiramente você deve instalar o GIT na sua máquina, que pode ser adquirido através desse <a href="https://git-scm.com/">link</a>, a instalação é bem fácil e prática, assim que instalado, você já será capaz de utilizar o mesmo localmente na sua máquina, basta abrir qualquer diretório, apertar com o botão direito em um espaço vazio e selecionar "Git Bash Here".
-<p>
-   <img src="./img/git_bash.gif" alt="Git Bash Here">
-</p>
 
 ---
+
+## Operações Locais
+
+Antes de começarmos a utiliza a ferramente de vez, vamos falar um pouco sobre operações locais no git, basicamente temos três niveis de operações, são elas <strong>Working Directory</strong><strong>Staging Area</strong>e<strong>Git Directory (repositório)</strong>.
