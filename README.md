@@ -38,8 +38,51 @@ Staging directory, é aqui que muitas pessoas se perdem e não conseguem compree
 
 ### Git Directory
 
-Enfim o Git Directory, a nossa linha do tempo, após ter inserido os itens finalizados na nossa Staging Directory, podemos passar todas as alterações concluídas com exito para a serem catalogadas através do comando git commit, tal comando empacota as alterações contidas na stage, com um comentário pelo qual você colocará descrevendo o que foi mudado, esse é o nível final.
+Enfim o Git Directory, a nossa linha do tempo, após ter inserido os itens finalizados na nossa Staging Directory, podemos passar todas as alterações concluídas com exito para a serem catalogadas através do comando <strong>git commit</strong>, tal comando empacota as alterações contidas na stage, com um comentário pelo qual você colocará descrevendo o que foi mudado, esse é o nível final.
 
 <p align="center">
     <img src="./img/local_operations_explanation.png" alt="Imagem Ilustrativa">
  </p>
+
+ ---
+
+ ## Comandos Essenciais 
+
+ ### Git Init
+
+ ```
+ git init
+ ```
+Esse comando é responsável por iniciar a linha do tempo no nosso projeto, criando o diretório git, pelo qual irá registrar todas as configurações relacionadas ao versionamento.
+
+### Git Add
+
+Adciona o arquivos alterados, por exemplo caso eu tenha modificando um "arquivo.txt", e queria colocar ele na Staging Area já explicada anteriormente, basta digitar:
+```
+git add arquivo.txt
+```
+Após isso o arquivo selecionado será encaminhado para a <strong>Staging Area</strong>. Caso você queira colocar todos os arquivos alterados em toda a pasta raíz, basta utilizar o comando:
+```
+git add *
+```
+
+### Git Commit
+
+Já citado antes no tópico onde falamos sobre o Git Directory, o comando:
+```
+git commit -m "exemplo"
+```
+É utilizado para registrar a alteração de todos os arquivos colocados na <strong>Staging Area</strong> e envia-los para o diretório git, o complemento <strong>-m "exemplo"</strong> é utilizado para destinar uma mensagem pelo qual será usada para identificar em qual ponto na linha do tempo foi alterado e o que foi alterado.
+
+---
+
+# GitHub
+
+Todos os comandos explicados até agora são usados como citado antes em operações locais, em sua máquina pessoal, entre tanto a graça do Git hoje em dia é a utilização de repositórios onlines, e é deles que vamos falar agora, para criar repositórios na nuvem, existem diversas plataformas, como BitBucket, GitLab, entre outros. Porém, o mais popular entre eles e o queridinho dos desenvolvedores, é o GitHub, para utilizar ele é bem fácil, basta acessar esse link, criar sua conta e pronto, você já será capaz de criar repositórios como esse que você está lendo.
+
+## Vinculando GitHub e Git
+
+Agora que já criamos nossa conta no GitHub, vamos configurar algumas coisinhas no github, primeiramente gerar nossa SSH Key, que é a chave pelo qual nos possibilitará entrar em contato com nosso servidor na nuvem do GitHub, para isso existem guias no própio site do GitHub pelos quais eu irei citar aqui: 
+
+- <a href="https://docs.github.com/pt/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"><strong>Como gerar uma nova chave SSH</strong></a>
+- <a href="https://docs.github.com/pt/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account"><strong>Ccomo adcionar sua chave ao GitHub</strong></a>
