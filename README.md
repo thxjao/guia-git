@@ -85,4 +85,4 @@ Todos os comandos explicados até agora são usados como citado antes em operaç
 Agora que já criamos nossa conta no GitHub, vamos configurar algumas coisinhas no github, primeiramente gerar nossa SSH Key, que é a chave pelo qual nos possibilitará entrar em contato com nosso servidor na nuvem do GitHub, para isso existem guias no própio site do GitHub pelos quais eu irei citar aqui: 
 
 - <a href="https://docs.github.com/pt/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"><strong>Como gerar uma nova chave SSH</strong></a>
-- <a href="https://docs.github.com/pt/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account"><strong>Ccomo adcionar sua chave ao GitHub</strong></a>
+- <a href="https://docs.github.com/pt/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account"><strong>Como adcionar sua chave ao GitHub</strong></a>
