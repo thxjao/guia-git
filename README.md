@@ -6,13 +6,13 @@
 
 # Guia de Git e GitHub para Iniciantes
 
-Esse guia foi feito com o intuito de ajudar aqueles no qual nunca tiveram contato com GIT antes, porém caso já possua conhecimentos na ferramenta, também pode ser utilizado com o objetivo de relembrar a utilização de alguns comandos presentes no final desse README.
+Esse guia foi feito com o intuito de ajudar aqueles no qual nunca tiveram contato com GIT antes, porém caso você já possua conhecimentos na ferramenta, também pode ser utilizado com o objetivo de relembrar a utilização de alguns comandos que podem ser úteis no seu dia a dia.
 
 ## Mas, na verdade, o que é GIT?
 
-GIT é uma ferramenta de versionamento, através dessa ferramenta podemos fazer o controle de versões, controle de versões? Mas o que é isso? Você deve estar se perguntando, bom… Falando bem por cima mesmo, imagine o git como uma ferramenta de permite você registrar todos os acontecimentos durante um projeto, tendo em mente esses acontecimentos como as alterações feitas no código do projeto que você esteja trabalhando, a partir disso podemos usar o GIT para voltar no tempo em um determinado ponto do desenvolvimento, sabe quando você estava fazendo aquele trabalho da escola no computador, e quando pensou que terminou ele salvou como "trabalho de educação física", mas aí algum tempo depois o seu coleguinha te manda uma mensagem falando que você esqueceu de acrescentar algum conteúdo nele, com isso, lá vai você editar o seu trabalho, e quando feito salva ele como uma segunda versão "trabalho de educação 2.0",  e então você se encontra com dois arquivos, a diferença do seu trabalho para um projeto seja em qual for que esteja trabalhando, é que ele enfrentará diversas alterações, e às vezes essas alterações podem acabar danificando o resultado final, para isso podemos usar o GIT e voltar em pontos registrados na linha do tempo.
+GIT é uma ferramenta de versionamento, através dessa ferramenta podemos fazer o controle de versões, controle de versões? Mas o que é isso? Você deve estar se perguntando, bom… Falando bem por cima mesmo, imagine o git como uma ferramenta que permite com que você registre todos os acontecimentos durante um projeto, tendo em mente esses acontecimentos como as alterações feitas no código do projeto que você esteja trabalhando, a partir disso podemos usar o GIT para voltar no tempo em um determinado ponto do desenvolvimento. Sabe quando você estava fazendo aquele trabalho da escola no computador, e quando pensou que já tinha terminado salvou o mesmo como "trabalho de educação física", mas aí algum tempo depois o seu coleguinha te manda uma mensagem falando que você esqueceu de acrescentar algum conteúdo nele, com isso, lá vai você editar o seu trabalho, e quando feito, salva ele como uma segunda versão "trabalho de educação 2.0", e então você se encontra com dois arquivos, a diferença do seu trabalho para um projeto seja em qual for que esteja trabalhando, é que ele enfrentará diversas alterações, e às vezes essas alterações podem acabar danificando o resultado final, para isso podemos usar o GIT e voltar em pontos registrados na linha do tempo do código fonte.
 
-## Ok, meio que entendi o que é GIT, mas agora, e esse tal de GitHub?
+## Ok, meio que entendi o que é esse tal de GIT, mas agora, e esse tal de GitHub?
 
 Sendo bem direto ao ponto, o GitHub nada mais é do que uma plataforma online de hospedagem de códigos fonte juntamento com um controle de versionamento, através dele você pode expor seus projetos de maneira que toda a comunidade de programadores possam ler, ou até mesmo contribuir com a construção do resultado final, sabe, eu gosto de imaginar o GitHub como uma cozinha imensa com vários fogões, mesas, fornos, e vários cozinheiros preparando seus pratos, eu imagino os cozinheiros como os programadores, dispostos a preparar seus pratos, mas também a ajudar os colegas cozinheiros próximos com seus conhecimentos e práticas, o prato que está sendo feito é como se fosse o projeto, a diferença é que bom... Nossa cozinha gigante é a internet, e a maneira como podemos ajudar é através de contribuições que podem ser feitas através do versionamento.
 
@@ -26,7 +26,7 @@ Bom primeiramente você deve instalar o GIT na sua máquina, que pode ser adquir
 
 ## Operações Locais
 
-Antes de começarmos a utiliza a ferramente de vez, vamos falar um pouco sobre operações locais no git, basicamente temos três niveis de operações, são elas <strong>Working Directory</strong>, <strong>Staging Area</strong> e <strong>Git Directory (repositório)</strong>.
+Antes de começarmos a utilizar a ferramente de vez, vamos falar um pouco sobre operações locais no GIT, basicamente temos três niveis de operações, são elas <strong>Working Directory</strong>, <strong>Staging Area</strong> e <strong>Git Directory (repositório)</strong>.
 
 ### Working Directory
 
@@ -34,11 +34,11 @@ Em primeiro nível, temos a working directory, é nesse local que o nosso projet
 
 ### Staging Area
 
-Staging directory, é aqui que muitas pessoas se perdem e não conseguem compreender a real função da Stage, imagine que você está trabalhando em um projeto X com duas funcionalidades, e no mesmo dia você fez alterações em ambas as funcionalidades, porém só conseguiu concluir uma e deixou a outra pela metade, você observa o horário e já chegou no final do seu expediente, como você não vai mais poder finalizar hoje, pretende enviar somente a funcionalidade que está completa, e é aí que entra a Stage Directory, é nela que você irá enviar apenas as alterações concluídas, que no final podem ser enviadas para a "linha do tempo", as alterações inacabadas, continuam na Working Directory,  saindo de lá apenas quando finalizadas.
+Staging area, é aqui que muitas pessoas se perdem e não conseguem compreender a real função da Stage, imagine que você está trabalhando em um projeto X com duas funcionalidades, e no mesmo dia você fez alterações em ambas as funcionalidades, porém só conseguiu concluir uma e deixou a outra pela metade, você observa o horário e já chegou no final do seu expediente, como você não vai mais poder finalizar hoje, pretende enviar somente a funcionalidade que está completa, e é aí que entra a Stage Directory, é nela que você irá enviar apenas as alterações concluídas, que no final podem ser enviadas para a "linha do tempo", as alterações inacabadas, continuam na Working Directory,  saindo de lá apenas quando finalizadas.
 
 ### Git Directory
 
-Enfim o Git Directory, a nossa linha do tempo, após ter inserido os itens finalizados na nossa Staging Directory, podemos passar todas as alterações concluídas com exito para a serem catalogadas através do comando <strong>git commit</strong>, tal comando empacota as alterações contidas na stage, com um comentário pelo qual você colocará descrevendo o que foi mudado, esse é o nível final.
+Enfim o Git Directory, a nossa linha do tempo, após ter inserido os itens finalizados na nossa Staging Area, podemos passar todas as alterações concluídas com exito para a serem catalogadas através do comando <strong>git commit</strong>, tal comando empacota as alterações contidas na stage, com um comentário pelo qual você colocará descrevendo o que foi alterado no código fonte, esse é o nível três, ou, nível final.
 
 <p align="center">
     <img src="./img/local_operations_explanation.png" alt="Imagem Ilustrativa">
@@ -78,7 +78,7 @@ git commit -m "exemplo"
 
 # GitHub
 
-Todos os comandos explicados até agora são usados como citado antes em operações locais, em sua máquina pessoal, entre tanto a graça do Git hoje em dia é a utilização de repositórios onlines, e é deles que vamos falar agora, para criar repositórios na nuvem, existem diversas plataformas, como BitBucket, GitLab, entre outros. Porém, o mais popular entre eles e o queridinho dos desenvolvedores, é o GitHub, para utilizar ele é bem fácil, basta acessar esse link, criar sua conta e pronto, você já será capaz de criar repositórios como esse que você está lendo.
+Todos os comandos explicados até agora são usados como citado antes em operações locais, em sua máquina pessoal, entre tanto a graça do Git hoje em dia é a utilização de repositórios onlines, e é deles que vamos falar agora, para criar repositórios na nuvem, existem diversas plataformas, como BitBucket, GitLab, entre outros. Porém, o mais popular entre eles e o queridinho dos desenvolvedores, o GitHub, para utilizar ele é bem fácil, basta acessar esse link, criar sua conta e pronto, você já será capaz de criar repositórios como esse que você está lendo.
 
 ## Vinculando GitHub e Git
 
